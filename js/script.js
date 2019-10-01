@@ -124,6 +124,7 @@ function onClickReset () {
     $('.countdown').display('');
     $('.message').html('');
     $('.timer').display('');
+    $('#Start').value("Start"); 
     updateText();
   }
 }
